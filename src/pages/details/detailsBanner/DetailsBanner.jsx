@@ -104,7 +104,7 @@ const DetailsBanner = ({ video, crew }) => {
                           {director.map((d, i) => (
                             <span key={i}>
                               {d.name}
-                              {director.length - 1 !== i && ", "}
+                              {(director.length - 1 !== i && ", ") || "."}
                             </span>
                           ))}
                         </span>
@@ -117,7 +117,7 @@ const DetailsBanner = ({ video, crew }) => {
                           {writer.map((d, i) => (
                             <span key={i}>
                               {d.name}
-                              {writer.length - 1 !== i && ", "}
+                              {(writer.length - 1 !== i && ", ") || "."}
                             </span>
                           ))}
                         </span>
@@ -130,7 +130,8 @@ const DetailsBanner = ({ video, crew }) => {
                           {data?.created_by?.map((d, i) => (
                             <span key={i}>
                               {d.name}
-                              {data?.created_by?.length - 1 !== i && ", "}
+                              {(data?.created_by?.length - 1 !== i && ", ") ||
+                                "."}
                             </span>
                           ))}
                         </span>
