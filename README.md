@@ -1,13 +1,8 @@
 # MoviX Website Clone
 
-<<<<<<< HEAD
 Welcome to the Movie & TV Series Website Clone repository! This project aims to replicate the functionality of a popular streaming platform, offering a seamless browsing experience for movie enthusiasts and TV series buffs alike.
 
 ## Features
-=======
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-Currently, two official plugins are available:
->>>>>>> d11f28f510036a9235988b96902dacaf708f55a5
 
 ### **Home Page:** Discover the latest movies and TV series.
 
